@@ -1,0 +1,96 @@
+.header {
+  padding-top: 4.5rem;
+}
+
+.info {
+  position: fixed;
+
+  padding: 0.5rem;
+
+  text-align: center;
+}
+
+.list-group {
+  flex-direction: row;
+}
+
+.list-group > .list-group-item + .list-group-item {
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.container > article + article {
+  margin-left: 4rem;
+}
+
+.hero {
+  grid-row: span 2;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+}
+
+.header {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.form-group {
+  flex-direction: row;
+}
+
+.container-flex {
+  flex-grow: 1;
+}
+
+.product {
+  flex-direction: row;
+  width: 1024px;
+  margin: 2rem  auto;
+}
+
+.product-infos {
+  margin-left: 2rem;
+  max-width: 21rem;
+}
+
+.product-infos > p:nth-child(3) {
+  line-height: 2rem;;
+}
+.product-infos > h3 {
+  margin-bottom: 2.5rem;
+}
+
+.product-list {
+  margin-right: 2rem;
+  font-size: 2rem;
+  order: 0;
+}
+
+.product-list > ul {
+  list-style: square;
+}
+
+.product-list > ul > li + li {
+  margin-top: 1.5rem;
+}
+
+.btn-list {
+  flex-direction: row;
+}

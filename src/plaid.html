@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0">
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/desktop.css" media="only screen and (min-width: 575px)">
+
+    <title>Chill'Us - Accueil</title>
+  </head>
+  <body>
+    <div class="info">
+      <p>
+        Attention: En raison de la situation liée au Covid, les dèlais de livraisons peuvent varier entre 3 jours et 3 semaines.
+      </p>
+    </div>
+    <header>
+      <div class="header">
+        <h1 class="header-title">Chill'Us</h1>
+        <nav class="header-navigation">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="index.html">Accueil</a></li>
+            <li class="list-group-item"><a href="plaid.html">Notre Plaid</a></li>
+            <li class="list-group-item"><a href="#">Blog</a></li>
+          </ul>
+          <ul class="icon-list">
+            <li class="icon-item"><i class="material-symbols-rounded">person</i></li>
+            <li class="icon-item"><i class="material-symbols-rounded">shopping_cart</i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="product">
+      <div class="product-list">
+        <ul>
+          <li><a href="#">Carnet</a></li>
+          <li><a href="#">Mug</a></li>
+          <li><a href="#">Fondu au Chocolat</a></li>
+        </ul>
+      </div>
+      <div class="carousel">
+        <img src="img/plaid-01.jpg" alt="Image d'un couple avec un plaid">
+        <ul class="carousel-list">
+          <li class="carousel-list-item"><img class="vignette" src="img/plaid-02.jpg" alt="Image de plaid bleu"></li>
+          <li class="carousel-list-item"><img class="vignette" src="img/plaid-03.jpg" alt="Image de plaid rouge"></li>
+          <li class="carousel-list-item"><img class="vignette" src="img/plaid-04.jpg" alt="Image de plaid noir"></li>
+        </ul>
+      </div>
+      <div class="product-infos">
+        <h3>Plaid à Capuche</h3>
+        <p><strong>44.50€</strong></p>
+        <p>
+          Doux et chaud, le plaid Scotland vous fera sentir comme dans un cocon pendant les soirées d’hivers.
+Ses grandes poches accueilleront avec plaisir votre livre préféré. Sa capuche vous fera
+confortablement entrer dans votre bulle. Ainsi, tel un chat, blottissez-vous au creux de vos coussins
+ou contre votre partenaire, et laissez vagabonder votre esprit.
+        </p>
+        <p><strong>Taille : </strong>Unique-Convient à toutes les morphologies.</p>
+        <p><strong>Matériaux : </strong>100% Polyester</p>
+        <div class="btn-list">
+          <a class="btn" href="#">Ajouter au Panier</a>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer">
+        <h2>Contactez-Nous</h2>
+        <form class="form-group" action="contact.php" method="post">
+          <div class="container-flex">
+            <div class="field">
+              <label for="lastname">Nom</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Nom">
+            </div>
+            <div class="field">
+              <label for="firstname">Prénom</label>
+              <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+            </div>
+            <div class="field">
+              <label for="email">Mail</label>
+              <input type="email" name="email" id="email" placeholder="Mail">
+            </div>
+          </div>
+          <div class="container-flex">
+            <div class="field">
+              <label for="comment">Commentaire</label>
+              <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            </div>
+            <input type="submit" value="Envoyer">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0">
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/desktop.css" media="only screen and (min-width: 575px)">
+
+    <title>Chill'Us - Accueil</title>
+  </head>
+  <body>
+    <div class="info">
+      <p>
+        Attention: En raison de la situation liée au Covid, les dèlais de livraisons peuvent varier entre 3 jours et 3 semaines.
+      </p>
+    </div>
+    <header>
+      <div class="header">
+        <h1 class="header-title">Chill'Us</h1>
+        <nav class="header-navigation">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="index.html">Accueil</a></li>
+            <li class="list-group-item"><a href="plaid.html">Notre Plaid</a></li>
+            <li class="list-group-item"><a href="#">Blog</a></li>
+          </ul>
+          <ul class="icon-list">
+            <li class="icon-item"><i class="material-symbols-rounded">person</i></li>
+            <li class="icon-item"><i class="material-symbols-rounded">shopping_cart</i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <article class="hero">
+        <h2>L'Automne est là, et l'hiver vient!</h2>
+        <img src="img/Image_accueil.jpg" alt="A woman sitting on a bed, drinking coffee.">
+        <p>
+          L’Eté n’est plus. Les températures baissent. On ressort les couettes. C’est l’occasion idéale pour
+          s’emmitoufler et se sentir comme dans un cocon. Après une journée de travail, une journée de
+          grisaille, qu’il est bon se détendre, seul, à deux ou plusieurs, blotti dans un plaid, à lire ou créer, avec
+          une bonne tasse de thé ou de chocolat chaud. En un mot : se détendre, tranquille, à l’aise,
+          confortablement installé dans sa bulle. Ainsi trouverez-vous dans notre boutique de quoi vous
+          accompagner dans votre moment de relaxation. Alors tamisons la lumière, diffusons quelques huiles
+          aromatiques, prenons une bonne tasse, et Chillons ensemble.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Titre article</h3>
+        <img class="card-img" src="img/carnet.jpg" alt="Image d'un carnet de notes.">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, et! Quibusdam enim dicta voluptate blanditiis nobis, error tempore, harum ad minima veritatis non eveniet libero sit quaerat reiciendis molestias delectus!
+        </p>
+      </article>
+      <article class="card">
+        <h3>Titre article</h3>
+        <img class="card-img" src="img/fondu.jpg" alt="Image d'un service a fondu au chocolat.">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, et! Quibusdam enim dicta voluptate blanditiis nobis, error tempore, harum ad minima veritatis non eveniet libero sit quaerat reiciendis molestias delectus!
+        </p>
+      </article>
+      <article class="card">
+        <h3>Titre article</h3>
+        <img class="card-img" src="img/mug.jpg" alt="Image d'un mug.">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, et! Quibusdam enim dicta voluptate blanditiis nobis, error tempore, harum ad minima veritatis non eveniet libero sit quaerat reiciendis molestias delectus!
+        </p>
+      </article>
+      <article class="card">
+        <h3>Titre article</h3>
+        <img class="card-img" src="img/service_the.jpg" alt="Image d'un service a the.">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, et! Quibusdam enim dicta voluptate blanditiis nobis, error tempore, harum ad minima veritatis non eveniet libero sit quaerat reiciendis molestias delectus!
+        </p>
+      </article>
+    </div>
+    <footer>
+      <div class="footer">
+        <h2>Contactez-Nous</h2>
+        <form class="form-group" action="contact.php" method="post">
+          <div class="container-flex">
+            <div class="field">
+              <label for="lastname">Nom</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Nom">
+            </div>
+            <div class="field">
+              <label for="firstname">Prénom</label>
+              <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+            </div>
+            <div class="field">
+              <label for="email">Mail</label>
+              <input type="email" name="email" id="email" placeholder="Mail">
+            </div>
+          </div>
+          <div class="container-flex">
+            <div class="field">
+              <label for="comment">Commentaire</label>
+              <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            </div>
+            <input type="submit" value="Envoyer">
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
